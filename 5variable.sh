@@ -1,4 +1,4 @@
 #!/bin/bash
 echo enter your username
-read USERNAM
+read -s USERNAME
 echo ENTER username :$USERNAME
