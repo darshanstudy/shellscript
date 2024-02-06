@@ -7,6 +7,6 @@ echo $PERSON2 : Oh $PERSON1 How are you?
 
 echo $PERSON1 : I am fine, what about you $PERSON2
 
-echo Tina : Well $PERSON1
+echo $PERSON2 : Well $PERSON1
 
 
