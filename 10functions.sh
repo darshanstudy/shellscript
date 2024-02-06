@@ -3,12 +3,12 @@
 ID=$(id -u)
 
 VALIDATE(){
-    if [ $1 -ne 0 ]
+    if [ $? -ne 0 ]
     then
-        echo "ERROR:: $2 ... FAILED"
+        echo "ERROR::  ... FAILED"
         exit 1
     else
-        echo "$2 ... SUCCESS"
+        echo " ... SUCCESS"
     fi
 }
 
