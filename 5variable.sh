@@ -1,4 +1,5 @@
 #!/bin/bash
-
-echo ENTER username :ADMIN
-echo ENTER password  : ADMIN123
+USERNAME=$1
+PASSWORD=$2
+echo ENTER username :$USERNAME
+echo ENTER password  : $PASSWORD
